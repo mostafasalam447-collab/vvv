@@ -4,10 +4,12 @@ here<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Applied Physics Quiz</title>
-  <!-- Signature -->
-<div class="ms-signature">
-  Fully Designed & Developed by Mostafa Sallam · © All Rights Reserved
-</div>
+  <!-- Elegant Signature -->
+<footer class="ms-signature">
+  <span>Fully Designed & Developed by</span>
+  <strong>Mostafa Sallam</strong>
+  <span>· © All Rights Reserved</span>
+</footer>
 
 <style>
 .ms-signature {
@@ -15,77 +17,25 @@ here<!DOCTYPE html>
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 12px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #fff;
-  background: linear-gradient(90deg, #000, #222, #000);
-  letter-spacing: 1px;
-  z-index: 999999;
-  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f;
-  animation: glow 2s infinite alternate;
-  user-select: none;
-  pointer-events: none;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px #00f, 0 0 10px #00f;
-  }
-  to {
-    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-  }
-}
-</style>
-  <footer style="text-align:center; padding:15px; font-size:14px; color:#777; letter-spacing:1px;">
-  Developed & Designed by <b>Mostafa Sallam</b> <br>
-  © All Rights Reserved
-  </footer>
-<style>
-body::before {
-  content: "𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 30px;
-  color: rgba(0,0,0,0.08);
-  transform: rotate(-30deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
+  padding: 10px 0;
+  font-size: 13px;
+  color: #2c3e50;
+  background: rgba(173, 216, 230, 0.9); /* لبني */
+  backdrop-filter: blur(6px);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  letter-spacing: 0.5px;
   z-index: 9999;
 }
-</style>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<style>
-:root {
-  --navy: #0d1b2a;
-  --indigo: #1e3a5f;
-  --blue: #1565c0;
-  --blue-light: #42a5f5;
-  --gold: #f9a825;
-  --gold-light: #ffe082;
-  --red: #ef4444;
-  --green: #10b981;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--navy);
-  min-height: 100vh;
-  overflow-x: hidden;
-  padding-bottom: 80px;
-}
-.bg-orbs { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
-.orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.15; animation: drift 14s ease-in-out infinite alternate; }
-.orb1 { width: 600px; height: 600px; background: #1565c0; top: -150px; left: -150px; }
-.orb2 { width: 450px; height: 450px; background: #0d47a1; top: 35%; right: -100px; animation-delay: 4s; }
-.orb3 { width: 350px; height: 350px; background: #f9a825; bottom: 5%; left: 25%; animation-delay: 7s; opacity: 0.08; }
-@keyframes drift { from{transform:translate(0,0) scale(1)} to{transform:translate(35px,45px) scale(1.09)} }
 
+.ms-signature strong {
+  color: #0b3d91; /* كحلي خفيف يدي فخامة */
+  font-weight: 600;
+}
+
+.ms-signature span {
+  margin: 0 4px;
+}
+</style>
 .sticky {
   position: fixed; top: 0; left: 0; right: 0; z-index: 999;
   background: rgba(13,27,42,0.93); backdrop-filter: blur(16px);
